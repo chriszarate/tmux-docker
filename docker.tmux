@@ -28,7 +28,7 @@ docker_stopped="#($CURRENT_DIR/scripts/docker-stopped.sh)"
 
 # Colors
 docker_format_begin=$(get_tmux_option "@docker_format_begin" "#[fg=white,bg=colour236]")
-docker_format_end=$(get_tmux_option "@docker_format_end" "#[fg=white,bg=black]")
+docker_format_end=$(get_tmux_option "@docker_format_end" "#[fg=default,bg=default]")
 
 # Icons
 docker_icon_running=$(get_tmux_option "@docker_icon_running" "◼ ")
